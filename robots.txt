@@ -1,0 +1,6 @@
+# Nothing on this host is for search results. The reports here are shared by link, and the
+# pages themselves also carry a noindex meta tag — this file is the belt to that braces:
+# it asks crawlers not to fetch them at all, the meta tag asks them not to list what they
+# fetched. Neither is access control; the links are unguessable for that reason.
+User-agent: *
+Disallow: /
